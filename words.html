@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meme Coin Concepts - Trenches Vocabulary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: linear-gradient(135deg, #facc15, #f472b6);
+      font-family: 'Press Start 2P', cursive;
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px #000;
+      margin-bottom: 2rem;
+    }
+    .word-list {
+      max-width: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .word {
+      background: rgba(0, 0, 0, 0.3);
+      border: 3px dashed #10b981;
+      border-radius: 20px;
+      padding: 1.5rem 2rem;
+      text-align: left;
+      box-shadow: 0 0 10px #10b981;
+    }
+    .word h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.3rem;
+      color: #10b981;
+    }
+    .word p {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+    .button-container {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      width: 100%;
+      max-width: 600px;
+    }
+    .back-btn, .next-btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: #fff;
+      background: #10b981;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-shadow: 1px 1px #000;
+    }
+    .back-btn:hover, .next-btn:hover {
+      background: #059669;
+    }
+    /* Disable back button on first page */
+    .back-btn:disabled {
+      background: #6ee7b7;
+      cursor: default;
+      text-shadow: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meme Coin Concepts</h1>
+  <div class="word-list">
+    <div class="word">
+      <h2>HODL</h2>
+      <p>When you keep your coins and do not sell no matter what</p>
+    </div>
+    <div class="word">
+      <h2>Rug</h2>
+      <p>When someone fucked you over in a project and vanished with all your money</p>
+    </div>
+    <div class="word">
+      <h2>Moon</h2>
+      <p>When the price of a coin keeps going up and you feel fucking rich!</p>
+    </div>
+    <div class="word">
+      <h2>FOMO</h2>
+      <p>Fear Of Missing Out — When you fuck it up and buy a coin just because you are jealous as fuck of others making money without you</p>
+    </div>
+    <div class="word">
+      <h2>Whale</h2>
+      <p>A rich fucker who has a lot of money and is able to move the market.</p>
+    </div>
+    <div class="word">
+      <h2>Pump & Dump</h2>
+      <p>When a coin's price is artificially inflated then sold off quickly for profit and you keep being poor as fuck.</p>
+    </div>
+  </div>
+<div class="button-container">
+  <button class="back-btn" onclick="location.href='index.html'">Back</button>
+  <button class="next-btn" onclick="location.href='words2.html'">Next</button>
+</div>
